@@ -36,6 +36,7 @@ const Bio = () => {
   `)
 
   const { author, social } = data.site.siteMetadata
+
   return (
     <div
       style={{
@@ -57,12 +58,9 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author.name}</strong> {author.summary}
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
-        </a>
-      </p>
+        Hi, I'm Daniel <span style={{marginRight: '8px'}} role='img' aria-label='waving hand'>👋</span>
+        I'm an aspiring product manager based in Los Angeles, Ca. I use this website to grow as a tech professional.
+        I post about web development, design and product management.</p>
     </div>
   )
 }

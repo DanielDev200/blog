@@ -8,25 +8,27 @@ const Layout = ({ location, title, children }) => {
   let header
 
   if (location.pathname === rootPath) {
-    header = (
-      <h1
-        style={{
-          ...scale(1.5),
-          marginBottom: rhythm(1.5),
-          marginTop: 0,
-        }}
-      >
-        <Link
-          style={{
-            boxShadow: `none`,
-            color: `inherit`,
-          }}
-          to={`/`}
-        >
-          {title}
-        </Link>
-      </h1>
-    )
+    // header = (
+    //   <h1
+    //     style={{
+    //       ...scale(1.5),
+    //       marginBottom: rhythm(1.5),
+    //       marginTop: 0,
+    //       maxWidth: '960px',
+    //       margin: 'auto'
+    //     }}
+    //   >
+    //     <Link
+    //       style={{
+    //         boxShadow: `none`,
+    //         color: `inherit`,
+    //       }}
+    //       to={`/`}
+    //     >
+    //       {title}
+    //     </Link>
+    //   </h1>
+    // )
   } else {
     header = (
       <h3
@@ -51,14 +53,12 @@ const Layout = ({ location, title, children }) => {
     <div
       style={{
         marginLeft: `auto`,
-        marginRight: `auto`,
-        maxWidth: rhythm(24),
-        padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+        marginRight: `auto`
       }}
     >
       <header>{header}</header>
       <main>{children}</main>
-      <footer>
+      <footer style={{maxWidth: '960px', margin: 'auto'}}>
         © {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>
