@@ -1,6 +1,6 @@
 ---
 title: Onboarding Review for "Unified Awareness"
-date: 2020-07-24T05:57:37.739Z
+date: 2020-07-23T05:57:37.739Z
 description: Unified Awareness claims to be the bridge the gap between social
   media and social justice.
 type: review
