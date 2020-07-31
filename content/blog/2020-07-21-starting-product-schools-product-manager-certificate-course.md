@@ -2,7 +2,7 @@
 title: Starting Product School's Product Manager Certificate course
 date: 2020-07-20T20:00:29.783Z
 description: Today is day one of the five day course
-type: product management
+type: certification
 ---
 I've decided to enroll in Product School's Product Manager Certificate course to help jump-start my transition into product management.
 
