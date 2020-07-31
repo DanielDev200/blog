@@ -1,6 +1,6 @@
 ---
 title: Starting Product School's Product Manager Certificate course
-date: 2020-07-21T00:09:29.783Z
+date: 2020-07-20T20:00:29.783Z
 description: Today is day one of the five day course
 type: product management
 ---
