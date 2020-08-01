@@ -12,7 +12,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const { previous, next } = pageContext
 
   return (
-    <div style={{maxWidth: '906px', margin: 'auto'}}>
+    <div className='post-page'>
       <Layout location={location} title={siteTitle}>
         <SEO
           title={post.frontmatter.title}

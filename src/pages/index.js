@@ -68,7 +68,7 @@ function getPostColor(postType){
   let postColor;
 
   switch (postType) {
-    case 'certification':
+    case 'education':
       postColor = 'green';
       break;
     case 'product management':
