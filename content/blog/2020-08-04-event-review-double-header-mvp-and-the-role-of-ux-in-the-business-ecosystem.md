@@ -1,7 +1,8 @@
 ---
 title: "Event Review double header: MVP and The Role of UX In The Business Ecosystem"
 date: 2020-08-03T20:26:00.000Z
-description: I attended two events today. One was very informative. The other...was not.
+description: I attended two events today. One was extremely informative. The
+  other, just regularly informative.
 type: event
 ---
 As part of my transition into product management, I will be attending product management related events Monday through Thursday. But today, rather than decide on one, I attended two.
@@ -16,7 +17,7 @@ I know what an MVP is, so I didn't expect to learn too much from this talk. That
 
 However this talk dad hammer one intricacy home - an MVP is for early adopters. Obvious, right? But I'm not sure I quite understood that dynamic entirely.
 
-MVPs are not built to satisfy everyone. An MVP is built to satisfy early adopters and to validate a hypothesis. If an MVP isn't doing both of those, it will be difficult to accurately measure its performance, and the implications of that are huge.
+MVPs are not built to satisfy everyone. An MVP is built to satisfy early adopters and to validate a hypothesis. If an MVP isn't doing both of those, it will be difficult to accurately measure its performance, and the implications of that are huge. That is something I'll have to remember going forward.
 
 Second, The Role of UX in The Business Ecosystem.
 
