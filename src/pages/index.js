@@ -33,15 +33,7 @@ const BlogIndex = ({ data, location }) => {
             <article key={node.fields.slug} className='sup'>
               <header>
                 <Link style={{ color: 'white', boxShadow: `none` }} to={node.fields.slug}>
-                  <h3
-                    className={`${postColor} post-title`}
-                    style={{
-                      marginTop: 0,
-                      marginBottom: rhythm(.75),
-                      paddingTop: rhythm(1.5),
-                      paddingBottom: rhythm(.75)
-                    }}
-                  >
+                  <h3 className={`post-title ${postColor}`}>
                     {title}
                   </h3>
                 </Link>

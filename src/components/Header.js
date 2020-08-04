@@ -16,11 +16,8 @@ function Header(){
   });
 
   return (
-    <div
-      className={`header ${shrinkHeader ? 'shrunk' : ''}`}
-      style={{paddingTop: rhythm(2.5)}}
-    >
-      <div style={{maxWidth: '960px', margin: 'auto'}}>
+    <div className={`header ${shrinkHeader ? 'shrunk' : ''}`}>
+      <div className='header-content-wrapper'>
         <h1 className={`site-title ${shrinkHeader ? 'shrunk' : ''}`}>
           <Link
             style={{
