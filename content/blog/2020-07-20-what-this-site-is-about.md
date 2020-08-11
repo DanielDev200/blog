@@ -2,7 +2,7 @@
 title: What this site is about
 date: 2020-07-20T01:05:54.326Z
 description: A brief introuction
-type: product management
+type: personal
 ---
 The odds that anyone will read this post are slim, so I'll keep it short.
 
