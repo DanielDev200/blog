@@ -3,7 +3,7 @@ title: Event Review Kickoff Double-Header Deluxe
 date: 2020-08-03T20:26:00.000Z
 description: "To start my educational event reviews in a truly massive way, I
   attended not one but TWO presentations in the same day "
-type: event
+type: education
 ---
 As part of my transition into product management, I am attending at least two product management related events each week and writing about what I learned. But today, to give this an exciting launch, I attended two events in **one day,** completing a stunning feat of intellectual endurance the likes of which are rarely seen.
 
