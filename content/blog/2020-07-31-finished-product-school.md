@@ -4,7 +4,7 @@ title: Learning product management with Product School vs. learning web
 date: 2020-07-24T20:00:47.761Z
 description: A coding bootcamp will take you from 0 to 100, but Product School's
   curriculum is more about reframing what you already know.
-type: education
+type: personal
 ---
 If there is a poster child for modern technical education, I might be it. I became a web developer after attending a bootcamp, and now I'll be moving into product management with a Product Management Certificate (PMC) from Product School.
 
