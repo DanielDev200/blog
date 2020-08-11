@@ -63,7 +63,7 @@ function getPostColor(postType){
     case 'education':
       postColor = 'green';
       break;
-    case 'product management':
+    case 'product sense':
       postColor = 'teal';
       break;
     default:
