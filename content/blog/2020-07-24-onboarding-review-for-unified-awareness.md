@@ -3,7 +3,7 @@ title: Onboarding Review for "Unified Awareness"
 date: 2020-07-23T05:57:37.739Z
 description: Unified Awareness claims to be the bridge the gap between social
   media and social justice.
-type: review
+type: product sense
 ---
 As part of my transition to product management, I've decided to be a beta user for products and write about my experiences with them. This is the first review.
 
