@@ -55,7 +55,7 @@ const Bio = () => {
       <p>
         Hi, I'm Daniel <span style={{marginRight: '8px'}} role='img' aria-label='waving hand'>👋</span>
         I'm an aspiring product manager based in Los Angeles, Ca. I use this website to grow as a tech professional.
-        I post about web development, design and product management. Since your here, connect with me on <a arget="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/daniel-serrano-a2652160/'>LinkedIn</a>.</p>
+        I post about web development, design and product management. Since you're already here, connect with me on <a arget="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/daniel-serrano-a2652160/'>LinkedIn</a>.</p>
     </div>
   )
 }
