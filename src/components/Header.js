@@ -7,13 +7,13 @@ import { Link } from "gatsby"
 function Header(){
   const [shrinkHeader, setshrinkHeader] = useState(false);
 
-  useDocumentScrollThrottled(callbackData => {
-    const {currentScrollTop } = callbackData;
+  // useDocumentScrollThrottled(callbackData => {
+  //   const {currentScrollTop } = callbackData;
 
-    setTimeout(() => {
-      setshrinkHeader(currentScrollTop > MINIMUM_SCROLL);
-    }, TIMEOUT_DELAY);
-  });
+  //   setTimeout(() => {
+  //     setshrinkHeader(currentScrollTop > MINIMUM_SCROLL);
+  //   }, TIMEOUT_DELAY);
+  // });
 
   return (
     <div className={`header ${shrinkHeader ? 'shrunk' : ''}`}>
@@ -26,7 +26,7 @@ function Header(){
             }}
             to={`/`}
           >
-            Daniel Serrano's Site
+            Hi, I'm Daniel <span style={{marginRight: '8px'}} role='img' aria-label='waving hand'>👋</span>
           </Link>
         </h1>
         <div className={`bio-wrapper ${shrinkHeader ? 'hidden': ''}`}>

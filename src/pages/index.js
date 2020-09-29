@@ -10,21 +10,22 @@ const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
 
-  const [shrinkPosts, setShrinkPosts] = useState(false);
+  // const [shrinkPosts, setShrinkPosts] = useState(false);
 
-  useDocumentScrollThrottled(callbackData => {
-    const {currentScrollTop } = callbackData;
+  // useDocumentScrollThrottled(callbackData => {
+  //   const {currentScrollTop } = callbackData;
 
-    setTimeout(() => {
-      setShrinkPosts(currentScrollTop > MINIMUM_SCROLL);
-    }, TIMEOUT_DELAY);
-  });
+  //   setTimeout(() => {
+  //     setShrinkPosts(currentScrollTop > MINIMUM_SCROLL);
+  //   }, TIMEOUT_DELAY);
+  // });
 
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
       <Header />
-      <div className={`posts ${shrinkPosts ? 'shrunk' : ''}`}>
+      {/* <div className={`posts ${shrinkPosts ? 'shrunk' : ''}`}> */}
+      <div className='posts'>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           const postColor = getPostColor(node.frontmatter.type);

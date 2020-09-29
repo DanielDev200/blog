@@ -57,12 +57,12 @@ const Layout = ({ location, title, children }) => {
       }}
     >
       <header>{header}</header>
-      <main>{children}</main>
-      <footer style={{maxWidth: '960px', margin: 'auto'}}>
+      <main style={{display: 'flex'}}>{children}</main>
+      {/* <footer style={{maxWidth: '960px', margin: 'auto'}}>
         © {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>
-      </footer>
+      </footer> */}
     </div>
   )
 }
