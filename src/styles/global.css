@@ -53,6 +53,10 @@ main {
   margin-bottom: 4.375rem;
 }
 
+.bio-list {
+  margin-left: 20px;
+}
+
 .bio-header {
   font-size: 18px;
   font-weight: 800;
