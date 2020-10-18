@@ -50,17 +50,18 @@ main {
 }
 
 .bio {
-  /* display: flex; */
   margin-bottom: 4.375rem;
+}
+
+.bio-header {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 12px;
 }
 
 .bio-wrapper.hidden {
   opacity: 0;
   height: 0px;
-}
-
-.desktop-pointer {
-  display: block;
 }
 
 .mobile-pointer {
@@ -123,6 +124,10 @@ main {
   margin-top: 48px;
 }
 
+.content-pointer {
+  font-size: 22px;
+}
+
 @media only screen and (max-width: 1070px) {
   .site-title {
     font-size: 2.9rem;
@@ -170,7 +175,7 @@ main {
     display: none;
   }
   .mobile-pointer {
-    display: block;
+    display: inline;
   }
   .posts {
     max-width: unset;
