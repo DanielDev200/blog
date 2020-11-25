@@ -37,21 +37,18 @@ const Bio = () => {
 
   const viceStoryUrl = 'https://www.vice.com/en_us/article/wd78zx/its-still-not-a-crime-to-take-photos-up-a-womans-skirt-in-america-522?';
   const viceStoryLink = <a href={viceStoryUrl} target='_blank' rel='noopener noreferrer'> Vicew News</a>;
-  const symphonyRMLink = <a href='https://www.symphonyrm.com/solutions/marketing/' rel="noopener noreferrer" target='_blank'>SymphonyRM's website</a>;
-  const adventLink = <a href='https://www.adventintermodal.com' rel="noopener noreferrer" target='_blank'>Advent eModal</a>;
+  const symphonyRMLink = <a href='https://www.symphonyrm.com/solutions/marketing/' rel="noopener noreferrer" target='_blank'>SymphonyRM</a>;
+  const coalitionLink = <a href='https://coalitiontechnologies.com/' rel="noopener noreferrer" target='_blank'>Coalition Technologies</a>;
   const DS4ALink = <a href='https://www.correlation-one.com/ds4a-empowerment' rel="noopener noreferrer" target='_blank'>DS4A</a>;
 
   return (
     <div className='bio'>
       <p className='bio-header'>
-        I'm a user-focused techie working as an engineer on the Customer Experience team at {adventLink}.
+        I'm a user-focused techie working as a Digital Strategist at {coalitionLink}, where I strive to 
+        create intuitive solutions for real world problems.
       </p>
-      <p>
-        I'm motivated by a drive to create simple and intuitive technology solutions.
-        My interests lie at the intersection of engineering, customer service, data, and design.
-      </p>
-      <p className='bio-header'>
-        What you should know about me:
+      <p className='bio-header bold'>
+        Here are few things you shoud know about me:
       </p>
       <ul className='bio-list'>
         <li>
@@ -59,7 +56,7 @@ const Bio = () => {
             header={`I'm enrolled in a comprehensive data analytics course`}
             body={
               <>
-                Only 10% of applicants are admitted into {DS4ALink}, a free data analyics
+                Only 6% of applicants are admitted into {DS4ALink}, a free data analyics
                 training program taught by instructors from top universities like Harvard and MIT.
               </>
             }
@@ -67,11 +64,11 @@ const Bio = () => {
         </li>
         <li>
           <BioSection
-            header={`I have years of engineering experience`}
+            header={`I'm an engineering`}
             body={
               <>
-                I spent 3.5 years as full-stack developer at healthcare startup Symphony RM.
-                Visit {symphonyRMLink} to see the product I built and supported.
+                I spent 3.5 years as full-stack developer at healthcare startup {symphonyRMLink}, and still code
+                after hours.
               </>
             }
           />
@@ -81,7 +78,7 @@ const Bio = () => {
           header={`I've worked as a journalist`}
           body={
             <>
-              Story-telling and communication come naturally to me. Check out a piece I pitched and wrote for
+              Story-telling comes naturally to me. Check out this piece I pitched and wrote for
               {viceStoryLink} (sensitive content warning).
               I'll also be uploading a story from my work as a daily newspaper reporter soon.
             </>

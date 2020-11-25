@@ -59,8 +59,11 @@ main {
 
 .bio-header {
   font-size: 18px;
-  font-weight: 800;
   margin-bottom: 12px;
+}
+
+.bio-header.bold {
+  font-weight: 800;
 }
 
 .bio-wrapper.hidden {
