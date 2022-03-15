@@ -44,48 +44,52 @@ const Bio = () => {
   return (
     <div className='bio'>
       <p className='bio-header'>
-        I'm a user-focused techie working as a Digital Strategist at {coalitionLink}, where I strive to 
-        create intuitive solutions for real world problems.
+        I'm honing my business thinking as Digital Strategist at {coalitionLink}, where I scope and sell web development
+        projects and digital marketing campaigns.
       </p>
       <p className='bio-header bold'>
-        Here are few things you shoud know about me:
+        A few things to know about me:
       </p>
       <ul className='bio-list'>
         <li>
           <BioSection
-            header={`I'm enrolled in a comprehensive data analytics course`}
+            header={`I'm technical`}
             body={
               <>
-                Only 6% of applicants are admitted into {DS4ALink}, a free data analyics
-                training program taught by instructors from top universities like Harvard and MIT.
+                I spent 3.5 years as full-stack developer at healthcare startup {symphonyRMLink}, leveled-up my
+                data analytics skills at the data bootcamp {DS4ALink}, and still code in my free time.
               </>
             }
           />
         </li>
         <li>
           <BioSection
-            header={`I'm an engineering`}
+            header={`I'm a strong communicator`}
             body={
               <>
-                I spent 3.5 years as full-stack developer at healthcare startup {symphonyRMLink}, and still code
-                after hours.
+                My time as a reporter and degrees in English and journalism taught me how to ask the questions that
+                matter and comminicate succinctly.
               </>
             }
           />
         </li>
         <li>
         <BioSection
-          header={`I've worked as a journalist`}
+          header={`I'm a fan of self-improvement`}
           body={
             <>
-              Story-telling comes naturally to me. Check out this piece I pitched and wrote for
-              {viceStoryLink} (sensitive content warning).
-              I'll also be uploading a story from my work as a daily newspaper reporter soon.
+              I strive to better myself professionally and personally. I believe it's important to have multiple outlets:
+              I do Jiu Jitsu to stay healthy, play guitar for creative catharsis, and look to work to make a lasting
+              impact through the quality of my work and the value I create.
             </>
           }
         />
         </li>
       </ul>
+      {/*
+      
+        TODO: hiding this because I don't think it adds any value right now
+
       <BioSection
         header={
           <>
@@ -105,7 +109,7 @@ const Bio = () => {
             Scroll for paradigm shifting insights.
           </>
         }
-      />
+      /> */}
     </div>
   )
 }

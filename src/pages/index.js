@@ -25,7 +25,10 @@ const BlogIndex = ({ data, location }) => {
       <SEO title="All posts" />
       <Header />
       {/* <div className={`posts ${shrinkPosts ? 'shrunk' : ''}`}> */}
-      <div className='posts'>
+
+      {/* TODO: hiding posts for now because idk what to do with them */}
+
+      {/* <div className='posts'>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           const postColor = getPostColor(node.frontmatter.type);
@@ -50,7 +53,7 @@ const BlogIndex = ({ data, location }) => {
             </article>
           )
         })}
-      </div>
+      </div> */}
     </Layout>
   )
 }
