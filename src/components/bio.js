@@ -39,13 +39,14 @@ const Bio = () => {
   const viceStoryLink = <a href={viceStoryUrl} target='_blank' rel='noopener noreferrer'> Vicew News</a>;
   const symphonyRMLink = <a href='https://www.symphonyrm.com/solutions/marketing/' rel="noopener noreferrer" target='_blank'>SymphonyRM</a>;
   const coalitionLink = <a href='https://coalitiontechnologies.com/' rel="noopener noreferrer" target='_blank'>Coalition Technologies</a>;
+  const BDCLink = <a href='https://brooklyndata.co/' rel="noopener noreferrer" target='_blank'>Brooklyn Data Co.</a>;
   const DS4ALink = <a href='https://www.correlation-one.com/ds4a-empowerment' rel="noopener noreferrer" target='_blank'>DS4A</a>;
 
   return (
     <div className='bio'>
       <p className='bio-header'>
-        I'm honing my business thinking as Digital Strategist at {coalitionLink}, where I scope and sell web development
-        projects and digital marketing campaigns.
+        I'm a Digital Product Analyst at {BDCLink}, where I work with product managers and software engineers to implement
+        product analytics tools and answer important product use and business questions.
       </p>
       <p className='bio-header bold'>
         A few things to know about me:
@@ -57,7 +58,7 @@ const Bio = () => {
             body={
               <>
                 I spent 3.5 years as full-stack developer at healthcare startup {symphonyRMLink}, leveled-up my
-                data analytics skills at the data bootcamp {DS4ALink}, and still code in my free time.
+                data analytics skills at the data bootcamp {DS4ALink}, and code in my free time.
               </>
             }
           />
@@ -67,20 +68,19 @@ const Bio = () => {
             header={`I'm a strong communicator`}
             body={
               <>
-                My time as a reporter and degrees in English and journalism taught me how to ask the questions that
-                matter and comminicate succinctly.
+                I spent 1.5 years in technical sales at {coalitionLink}, worked as a reporter, and earned degrees in English and journalism.
+                I know how to ask questions that matter and communicate succintly and with empathy.
               </>
             }
           />
         </li>
         <li>
         <BioSection
-          header={`I'm a fan of self-improvement`}
+          header={`I have a lot of interests`}
           body={
             <>
-              I strive to better myself professionally and personally. I believe it's important to have multiple outlets:
-              I do Jiu Jitsu to stay healthy, play guitar for creative catharsis, and look to work to make a lasting
-              impact through the quality of my work and the value I create.
+              I like to play guitar, train Jiu Jitsu, and ride my bike around Long Beach, Ca with my girlfriend in search
+              of delicious restaurants - there's no shortage! I work to appreciate what I have while I have it.
             </>
           }
         />
