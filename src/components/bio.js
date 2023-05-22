@@ -39,17 +39,17 @@ const Bio = () => {
   const viceStoryLink = <a href={viceStoryUrl} target='_blank' rel='noopener noreferrer'> Vicew News</a>;
   const symphonyRMLink = <a href='https://www.symphonyrm.com/solutions/marketing/' rel="noopener noreferrer" target='_blank'>SymphonyRM</a>;
   const coalitionLink = <a href='https://coalitiontechnologies.com/' rel="noopener noreferrer" target='_blank'>Coalition Technologies</a>;
-  const BDCLink = <a href='https://brooklyndata.co/' rel="noopener noreferrer" target='_blank'>Brooklyn Data Co.</a>;
+  const EdmundsLink = <a href='https://www.edmunds.com/' rel="noopener noreferrer" target='_blank'>Edmunds</a>;
   const DS4ALink = <a href='https://www.correlation-one.com/ds4a-empowerment' rel="noopener noreferrer" target='_blank'>DS4A</a>;
 
   return (
     <div className='bio'>
       <p className='bio-header'>
-        I'm a Digital Product Analyst at {BDCLink}, where I work with product managers and software engineers to implement
-        product analytics tools and answer important product use and business questions.
+        I'm a Product Manager at {BDCLink}, where I manage an advertising product used by auto dealers nationwide. I dig into data and work with cross-functional teams
+        to luanch and support both new ideas and optimizations for existing products.
       </p>
       <p className='bio-header bold'>
-        A few things to know about me:
+        A brief about me:
       </p>
       <ul className='bio-list'>
         <li>
@@ -69,7 +69,7 @@ const Bio = () => {
             body={
               <>
                 I spent 1.5 years in technical sales at {coalitionLink}, worked as a reporter, and earned degrees in English and journalism.
-                I know how to ask questions that matter and communicate succintly and with empathy.
+                I ask questions that matter and communicate succintly and empathetically.
               </>
             }
           />
