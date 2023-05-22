@@ -40,6 +40,7 @@ const Bio = () => {
   const symphonyRMLink = <a href='https://www.symphonyrm.com/solutions/marketing/' rel="noopener noreferrer" target='_blank'>SymphonyRM</a>;
   const coalitionLink = <a href='https://coalitiontechnologies.com/' rel="noopener noreferrer" target='_blank'>Coalition Technologies</a>;
   const EdmundsLink = <a href='https://www.edmunds.com/' rel="noopener noreferrer" target='_blank'>Edmunds</a>;
+  const BDCLink = <a href='https://brooklyndata.co/' rel="noopener noreferrer" target='_blank'>Brooklyn Data Co.</a>;
   const DS4ALink = <a href='https://www.correlation-one.com/ds4a-empowerment' rel="noopener noreferrer" target='_blank'>DS4A</a>;
 
   return (
@@ -57,7 +58,8 @@ const Bio = () => {
             body={
               <>
                 I spent 3.5 years as full-stack developer at healthcare startup {symphonyRMLink}, leveled-up my
-                data analytics skills at the data bootcamp {DS4ALink}, and code in my free time.
+                data analytics skills at the data bootcamp {DS4ALink}, worked as a digital product analyst at the
+                full-stack data consultancy {BDCLink}, and code in my free time.
               </>
             }
           />
