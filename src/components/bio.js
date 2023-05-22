@@ -45,8 +45,7 @@ const Bio = () => {
   return (
     <div className='bio'>
       <p className='bio-header'>
-        I'm a Product Manager at {BDCLink}, where I manage an advertising product used by auto dealers nationwide. I dig into data and work with cross-functional teams
-        to luanch and support both new ideas and optimizations for existing products.
+        I'm a Product Manager at {EdmundsLink}, where I manage an advertising product used by auto dealers nationwide. I dig into data and work with cross-functional teams to launch and support both new ideas and optimizations for existing products.
       </p>
       <p className='bio-header bold'>
         A brief about me:
